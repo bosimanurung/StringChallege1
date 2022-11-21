@@ -7,6 +7,9 @@ Created on Wed Jul 27 23:38:49 2022
 Have the function DifferentCases(str) take the str parameter being passed and return it in upper camel case format 
 where the first letter of each word is capitalized. The string will only contain letters and some combination of delimeter punctuation character 
 separating each word.
+Example: 
+- if str is "Daniel Likes-coding" then the program should return the string "DanielLikesCoding"
+- if str is "cats AND*Dogs-are Awesome" then the program should return the string "CatsAndDogsAreAwesome"
 """
 
 def StringChallenge(strParam):
